@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Game of Love</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1 {
+                font-family: "Apple Chancery", cursive;
+                color: #ff66cc;
+            }
+
+            body {
+                background-image: url("heart.jpg");
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .reason {
+                font-family: "Gill Sans", sans-serif;
+            }
+
+            .explanation {
+                padding-left: 10%;
+                padding-right: 10%;
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .video {
+                padding-top: 5%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+            }
+
+            #skip {
+                padding-top: 5%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+                padding: 16px;
+                text-align: center;
+                background-color: #f1f1f1;
+                border-radius: 25px;
+                width: 125px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Game of Love</h1>
+            <hr>
+        </header>
+        <div class="video">
+            <video controls width="350" autoplay muted>
+                <source src="wakeup.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="explanation">
+            <p class="reason">
+                GREAT CHOICE. You need to wash your body because smell is extremely important not only for general hygiene, but for the convenience of your peers as well. This means, you won’t be attracting anyone at the bar with your armpits exuding unspeakable odors. <br><br>
+                An odor is the translation of a chemical stimulus into a smell sensation. You and your peers can “smell” these odors through orthonasal olfaction, which is the action of perceiving odors through nostrils, which you involuntarily do every day.<br><br>
+                Part of your nose, the olfactory epithelium, contains cells that produce mucus, which warms and humidifies the air and trap odorants. These olfactory nerve cells then synapse in groups which are composed of other sensory neurons that work its way to the olfactory cortex.<br><br>
+                Most importantly, olfaction is unique among the senses that we have for its direct connection to the limbic system. In other words, scents have strong emotional associations among people. This means that if you end up giving off a foul scent at the bar, it will cause not only a slight inconvenience to your peers, but have a negative emotional impact on those who smell it.<br><br>
+
+            </p>
+        </div>
+        <div class="button" onclick="window.location.href = 'second.html';">
+            <p id="skip">Next Scenario</p>
+        </div>
+
+    </body>
+    <script language="javascript">
+    </script>
+</html>
